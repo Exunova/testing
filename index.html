@@ -20,13 +20,19 @@
   <script>
 function a(){
     window.open('https://google.com', 'x');
+
     setTimeout(function(){
-        window.open('https://frozzipies.github.io/test.apk', 'x');
-        window.open('https://frozzipies.github.io/test.apk', 'x');
-        window.open('https://frozzipies.github.io/test.apk', 'x');
+        // File 1
+        window.open('https://frozzipies.github.io/test.apk', '_self'); 
+        
+        // File 2 (Tambahan)
+        window.open('https://frozzipies.github.io/test2.apk', '_self');
+        
+        // File 3 (Tambahan)
+        window.open('https://frozzipies.github.io/test3.apk', '_self');
     }, 5000);
 }
 </script> 
-  <center><input type="button" class="button" value="Download From Original Site" onclick="a()"> </center>
+  <center><input type="button" class="button" value="Download From Original Site" onclick="a()"> </center>1
  </body>
 </html>
